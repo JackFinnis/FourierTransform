@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from fourier import transform
 from path import getPath
 
-path = getPath('photos/run.jpg')
+path = getPath('photos/giraffe.jpg')
 
 
 while True:

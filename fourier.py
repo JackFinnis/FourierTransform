@@ -32,4 +32,4 @@ def getApprox(N, path, c):
 def transform(N, path):
     c = getCn(N, path)
     approx = getApprox(N, path, c)
-    return approx.real, approx.imag
+    return approx.real, approx.imag*-1
